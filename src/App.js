@@ -6,7 +6,10 @@ import TestComponent from './TestComponent'
 // Add your code own within the return statement
 
 class App extends Component {
-  render(<div className="App">
+  render() {
+
+    return (
+      <div className="App">
         <header className="App-header">
           {"Now"}
         </header>
